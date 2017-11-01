@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 project(VulkanTest)
 
-include_directories("src" "SDL2-2.0.7/include/" "Vulkan/Include")
+include_directories("src" "SDL2-2.0.7/include" "Vulkan/Include")
 
 if(WIN32)
 	if(CMAKE_GENERATOR MATCHES "Win64")
