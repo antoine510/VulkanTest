@@ -1,0 +1,37 @@
+# CMake
+/build
+/lib
+Binary/
+
+# IDE
+.idea
+*.vs
+*.userprefs
+*.csproj
+*.suo
+*.user
+*.tlog
+*.opendb
+*.db
+*.sln
+
+# Temp files
+*~
+~*
+
+# Compiled Object files
+*.o
+*.obj
+
+# Debugging files
+*.pdb
+*.ilk
+*.exp
+
+# Executables
+*.exe
+*.out
+*.app
+
+#MacOS cache
+*.DS_Store
