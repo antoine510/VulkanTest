@@ -5,7 +5,7 @@ include_directories("src" "SDL2-2.0.7/include" "Vulkan/Include")
 
 if(WIN32)
 	if(CMAKE_GENERATOR MATCHES "Win64")
-		link_directories("SDL2-2.0.7/lib/x64/" "Vulkan/Lib")
+		link_directories("SDL2-2.0.7/lib/Win64/" "Vulkan/Lib")
 	else()
 		message( FATAL_ERROR "Win64 is the only supported configuration")
 	endif()

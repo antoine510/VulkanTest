@@ -11,5 +11,5 @@ layout (location = 0) out vec2 outUV;
 
 void main() {
    outUV = inUV;
-   gl_Position = myBufferVals.mvp * vec4(pos.x, -pos.y, 0.5f, 1);
+   gl_Position = myBufferVals.mvp * vec4(pos.x, pos.y, 0, 1);
 }
